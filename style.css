@@ -108,6 +108,7 @@ transform: rotate(-180deg);
 
 /* small screens */
 @media only screen and (max-width: 600px){
+
   .navbar {
     bottom: 0;
     width: 100vw;
@@ -131,8 +132,12 @@ transform: rotate(-180deg);
   }
   
   .nav-link{
+	width:100%;
     justify-content: center;
+	padding:20px;
+	box-sizing: border-box;
   }
+  
   main{
     margin: 0;
   }
